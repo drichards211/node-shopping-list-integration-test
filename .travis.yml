@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: LhZX0Q9E+uAi+RkYQK/uHxIPGrIm/lTC90MsuXMvfnG9r4ElYwokEtwRwDE686M9t1Ghh/Q7KnNg8fWNtqsyHqfhGDmC9j9N06zZLJ51eCBtejx3Q9qqPy9Swm6lfpB9DzmKyMr4vPt7Sci9lBJ4pGjFy2+uaVUBeSiI/dWUFO0wKVp6VLPKgB6yu5bh3eN9vEDDEIoebLUUUV7s3E/qcltwlv3nlNKbVPpdbNwslxLnOP8vVpQffepGD9eWfyrljrQEB+bRkFTYyyugp/mh9VFHSsVTww6KpRd44GVqznOw55U0o457FdKL9SPJRqTCEIGzmxhcUJwCBtKoo+Y6wXcoBOal87B3plaabTttxyfwMnDAJ4hXF7Xk4WtQGZW69+v+dyBN872xm6qlgJJt6oItUtKHMIIadd6Np/H5IRPyuXjWiJc+aoRQ+BK5Pq5tAh4//J4UjD7Okz7yAt/8j9BeNbBUzUO+XOgW9ttZZBTgrpVCZ3fq2RnRoEnEtPyxvkqi5Vg7crxJCft57ycR1KVjy5cjXKTsekL17Tc4HBGllLg/R348SFiy8KyS15fa2SvNEL60sw4dGJk/GWZMt7yK2pjigMOGgP9Zx8KUkKKZYHHP2KeJ+p+ZjYevKbC1yAcMdJlVEcPqzA1hupZQhONv0v7U1C9wJ0CxTNZJuLw=
+  app: fierce-harbor-94489
+  on:
+    repo: drichards211/node-shopping-list-integration-test
